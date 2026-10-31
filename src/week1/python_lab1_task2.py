@@ -1,7 +1,12 @@
-def greet_user(name):
-    """Clean up a name and return a greeting."""
-    name = name.strip().title()
-    return f"Hello, {name}!"
+
+def greet_user(name: str) -> str:
+    """Return a greeting message after cleaning and capitalizing the name."""
+    name = name.strip().capitalize()
+
+    if not name:
+        name = "Stranger"
+
+    return f"Hello, {name}! Welcome to Python!"
 
 
 if __name__ == "__main__":
