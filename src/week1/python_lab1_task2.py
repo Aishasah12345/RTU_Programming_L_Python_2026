@@ -1,4 +1,3 @@
-
 def greet_user(name: str) -> str:
     """Return a greeting message after cleaning and capitalizing the name."""
     name = name.strip().capitalize()
