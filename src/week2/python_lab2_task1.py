@@ -1,7 +1,21 @@
-
 """
 Lab 2.1 – Simple Datasets and Aggregates
 Practice lists, dictionaries and tuples by computing simple aggregates.
+
+>>> average([1, 2, 3])
+2.0
+>>> average([])
+0.0
+>>> largest_city({"Riga": 600, "Liepaja": 60})
+('Riga', 600)
+>>> smallest_city({"Riga": 600, "Liepaja": 60})
+('Liepaja', 60)
+>>> total_population({"Riga": 600, "Liepaja": 60})
+660
+>>> largest_city({})
+('', 0)
+>>> smallest_city({})
+('', 0)
 """
 
 

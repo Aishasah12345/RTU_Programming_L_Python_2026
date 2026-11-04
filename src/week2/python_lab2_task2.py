@@ -1,7 +1,21 @@
 
 """
 Lab 2.2 – Comprehensions and Transformations
-Practice list, set and dictionary comprehensions.
+
+>>> squares([1, -2, 3])
+[1, 4, 9]
+>>> squares(NUMBERS)
+[9, 64, 4, 49, 0, 25, 100]
+>>> positives(NUMBERS)
+[3, 8, 7, 10]
+>>> sorted(even_squares(NUMBERS))
+[0, 4, 64, 100]
+>>> type(even_squares(NUMBERS))
+<class 'set'>
+>>> cubes([2, -3])
+{2: 8, -3: -27}
+>>> squares([]), positives([]), even_squares([]), cubes([])
+([], [], set(), {})
 """
 
 NUMBERS = [3, 8, -2, 7, 0, -5, 10]
