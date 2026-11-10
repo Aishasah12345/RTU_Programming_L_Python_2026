@@ -1,3 +1,18 @@
+"""
+Task 1 – Simple Function with Arithmetic
+
+Write a function circle_area(radius) that returns the area of a circle.
+Use math.pi * radius ** 2 and do not round the returned value.
+
+Examples:
+>>> round(circle_area(1), 2)
+3.14
+>>> round(circle_area(2), 2)
+12.57
+>>> circle_area(0)
+0.0
+"""
+
 import math
 
 
